@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <div class="container">
+            <span class="error animated tada" id="msg"></span>
+            <form name="form1" method="POST" action="/home" class="box" onsubmit="return checkStuff()">
+                <h4>Admin <span>Dashboard</span></h4>
+                <h5>Log in to enter beta website.</h5>
+                <input type="text" name="username" placeholder="Username" autocomplete="off">
+                <input type="password" name="password" placeholder="Passsword" id="pwd" autocomplete="off">
+                <input type="submit" value="Log in" class="btn1">
+            </form>
+        </div> 
+        <div class="footer">
+            <div>Made by <span>impresse</span></div>
+        </div>
+    </div>
+</body>
+<script>
+    var pwd = document.getElementById('pwd');
+// Form Validation
+
+function checkStuff() {
+  var username = document.form1.username;
+  var password = document.form1.password;
+  var msg = document.getElementById('msg');
+  
+  if (username.value == "") {
+    msg.style.display = 'block';
+    msg.innerHTML = "Please enter your username";
+    username.focus();
+    return false;
+  } else {
+    msg.innerHTML = "";
+  }
+  
+   if (password.value == "") {
+    msg.innerHTML = "Please enter your password";
+    password.focus();
+    return false;
+  } else {
+    msg.innerHTML = "";
+  }
+}
+</script>
+</html>
