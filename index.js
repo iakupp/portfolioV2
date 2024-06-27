@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 
 const app = express();
 const port = 3000;
-const domain = "www.impresse.sk";
+const domain = "https//www.impresse.sk";
 
 const username = "impresse";
 const password = "jakubko33";
@@ -13,11 +13,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 
-app.get("www.impresse.sk", (req,res) =>{
+app.get("/", (req,res) =>{
     res.render("form.ejs",{});
 });
 
-app.post("www.impresse.sk/home", (req,res) => {
+app.post("/home", (req,res) => {
     const userInputName = req.body.username;
     const userInputPass = req.body.password;
     if(userInputName == username && userInputPass == password){
