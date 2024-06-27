@@ -12,11 +12,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 
-app.get("/", (req,res) =>{
+app.get("www.impresse.sk", (req,res) =>{
     res.render("form.ejs",{});
 });
 
-app.post("/home", (req,res) => {
+app.post("www.impresse.sk/home", (req,res) => {
     const userInputName = req.body.username;
     const userInputPass = req.body.password;
     if(userInputName == username && userInputPass == password){
