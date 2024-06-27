@@ -3,6 +3,7 @@ import bodyParser from "body-parser";
 
 const app = express();
 const port = 3000;
+const domain = "www.impresse.sk";
 
 const username = "impresse";
 const password = "jakubko33";
@@ -27,6 +28,6 @@ app.post("www.impresse.sk/home", (req,res) => {
     }
 });
 
-// app.listen(port, () => {
-//     console.log(`Server is running at http://localhost:${port}`);
-// });
+app.listen(domain, () => {
+    console.log(`Server is running at http://localhost:${port}`);
+});
