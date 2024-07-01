@@ -33,3 +33,5 @@ app.post("/home", (req,res) => {
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
 });
+// Export the Express API
+module.exports = app;
