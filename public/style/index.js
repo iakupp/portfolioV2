@@ -15,14 +15,14 @@ app.use(express.static("public"));
 
 
 app.get("/", (req,res) =>{
-    res.render("form.ejs",{});
+    res.render("form",{});
 });
 
 app.post("/home", (req,res) => {
     const userInputName = req.body.username;
     const userInputPass = req.body.password;
     if(userInputName == username && userInputPass == password){
-        res.render("main.ejs");
+        res.render("main");
     }
     else{
         res.status(404).send("Opps wrong input!")
