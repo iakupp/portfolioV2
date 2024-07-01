@@ -5,7 +5,6 @@ const app = express();
 const port = 3000;
 const domain = "https//www.impresse.sk";
 app.set('view engine', 'ejs')
-app.set('views', __dirname + '/views')
 
 const username = "impresse";
 const password = "jakubko33";
