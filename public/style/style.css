@@ -4,11 +4,12 @@
   --primary_color : #53b3a3;
   --secondary_color: #101b1c;
   --white_color: #e2e8e5;
+  --light_green: #94dfec;
 }
 
 body, html {
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: var(--secondary_color);
+  background-color: var(--light_green);
   padding: 0;
   margin: 0;
 }
@@ -50,7 +51,7 @@ body, html {
 .box h5 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
-  color: var(white_color);
+  color: var(--white_color);
   letter-spacing: 1.5px;
   margin-top: -15px;
   margin-bottom: 70px;
