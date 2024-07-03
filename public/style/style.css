@@ -8,7 +8,7 @@
 
 body, html {
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: var(secondary_color);
+  background-color: var(--secondary_color);
   padding: 0;
   margin: 0;
 }
