@@ -3,6 +3,7 @@
 :root{
   --primary_color : #53b3a3;
   --secondary_color: #101b1c;
+  --white_color: #e2e8e5;
 }
 
 body, html {
@@ -38,7 +39,7 @@ body, html {
   font-family: 'Source Sans Pro', sans-serif;
   color: var(--primary_color); 
   font-size: 18px;
-  margin-top:94px;;
+  margin-top:94px;
 }
 
 .box h4 span {
@@ -49,7 +50,7 @@ body, html {
 .box h5 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 13px;
-  color: #a1a4ad;
+  color: var(white_color);
   letter-spacing: 1.5px;
   margin-top: -15px;
   margin-bottom: 70px;
