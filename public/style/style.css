@@ -27,7 +27,7 @@ body, html {
   position: absolute;
   text-align: center;
   transform: translateX(-50%);
-  background-color: #58afa6;
+  background-color: #204945;
   border-radius: 9px;
   border-top: 10px solid var(--primary_color);
   border-bottom: 10px solid var(--primary_color);
