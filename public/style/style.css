@@ -29,13 +29,8 @@
 }
 
 body, html {
-<<<<<<< HEAD
   font-family: var(--ff-poppins) ;
   background-color: var(--main_bg_color);
-=======
-  font-family: 'Source Sans Pro', sans-serif;
-  background-color: #acbeb8;
->>>>>>> bdccff74e75168565806583f831a94f077fe0293
   padding: 0;
   margin: 0;
 }
@@ -53,7 +48,6 @@ body, html {
   position: absolute;
   text-align: center;
   transform: translateX(-50%);
-<<<<<<< HEAD
   background-color: var(--container_bg_color);
   border-radius: 9px;
   border-top: 10px solid var(--accent_color);
@@ -65,20 +59,6 @@ body, html {
 
 .box h4 {
   color: var(--accent_color); 
-=======
-  background-color: #58afa6;
-  border-radius: 9px;
-  border-top: 10px solid #acbeb8;
-  border-bottom: 10px solid #acbeb8;
-  width: 400px;
-  height: 500px;
-  box-shadow: 1px 1px 108.8px 19.2px #acbeb8;
-}
-
-.box h4 {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: var(--primary_color); 
->>>>>>> bdccff74e75168565806583f831a94f077fe0293
   font-size: 18px;
   margin-top:94px;
 }
@@ -90,11 +70,7 @@ body, html {
 
 .box h5 {
   font-size: 13px;
-<<<<<<< HEAD
   color: var(--light_gray_small_text);
-=======
-  color: var(--white_color);
->>>>>>> bdccff74e75168565806583f831a94f077fe0293
   letter-spacing: 1.5px;
   margin-top: -15px;
   margin-bottom: 70px;
@@ -122,11 +98,7 @@ body, html {
 }
 
 .box input[type = "text"]:focus,.box input[type = "password"]:focus {
-<<<<<<< HEAD
   border: 1px solid var(--accent_color);
-=======
-  border: 1px solid var(--primary_color);
->>>>>>> bdccff74e75168565806583f831a94f077fe0293
   
 }
 
@@ -158,11 +130,7 @@ label span {
 
 .btn1 {
   border:0;
-<<<<<<< HEAD
   background: var(--accent_color);
-=======
-  background: var(--primary_color);
->>>>>>> bdccff74e75168565806583f831a94f077fe0293
   color: #000;
   border-radius: 100px;
   width: 340px;
@@ -241,14 +209,5 @@ label span {
 }
 
 .footer span{
-<<<<<<< HEAD
     color: var(--accent_color);
 }
-=======
-    color: var(--primary_color);
-}
-
-.footer .fa {
-  color: #7f5feb;;
-}
->>>>>>> bdccff74e75168565806583f831a94f077fe0293
