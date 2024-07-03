@@ -9,7 +9,7 @@
 
 body, html {
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: #1b2a2a;
+  background-color: #acbeb8;
   padding: 0;
   margin: 0;
 }
@@ -27,10 +27,10 @@ body, html {
   position: absolute;
   text-align: center;
   transform: translateX(-50%);
-  background-color: #204945;
+  background-color: #58afa6;
   border-radius: 9px;
-  border-top: 10px solid var(--primary_color);
-  border-bottom: 10px solid var(--primary_color);
+  border-top: 10px solid #acbeb8;
+  border-bottom: 10px solid #acbeb8;
   width: 400px;
   height: 500px;
   box-shadow: 1px 1px 108.8px 19.2px rgb(25,31,53);
