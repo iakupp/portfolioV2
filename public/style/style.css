@@ -33,7 +33,7 @@ body, html {
   border-bottom: 10px solid #acbeb8;
   width: 400px;
   height: 500px;
-  box-shadow: 1px 1px 108.8px 19.2px rgb(25,31,53);
+  box-shadow: 1px 1px 108.8px 19.2px #58afa6;
 }
 
 .box h4 {
