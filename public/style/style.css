@@ -19,13 +19,8 @@
   --fw-400: 400;
   --fw-500: 500;
   --fw-600: 600;
-}
 
-:root{
-  --primary_color : #489689;
-  --secondary_color: #101b1c;
-  --white_color: #e2e8e5;
-  --light_green: #94dfec;
+
 }
 
 body, html {
